@@ -1,0 +1,56 @@
+.bottom
+    max-width: 800px
+    margin: 0 auto
+    padding-top: 20px
+    padding-left: 15px
+    padding-right: 15px
+    display: flex
+    justify-content: center
+    .bottom_left
+        display: flex
+        flex-direction: column
+        max-width: 75%
+        .bottom_left_mid
+            display: flex
+            flex-basis: 50%
+            align-items: center
+            .blm_pic
+                width: 40%
+                img
+                    width: 100%
+            .blm_txt
+                padding: 5px
+                h3
+                    font-size: 2em
+    .bottom_left_bottom
+        display: flex
+        justify-content: flex-start
+        .blb_yellow
+            @include yellow
+            padding: 10px 20px
+            margin-right: 10px
+            font-weight: bold
+            margin-top: 15px
+            margin-bottom: 15px
+
+.bottom_left h2
+    font-size: 25px
+    padding-bottom: 10px
+
+.bottom_right
+    display: flex
+    justify-content: center
+    align-items: center
+
+.bottom_right_mid
+    display: flex
+    flex-direction: column
+    border-left: 1px solid black
+    padding-left: 20px
+    align-items: center
+    justify-content: center
+
+.brm_num
+    font-size: 40px
+.brm_txt
+    font-weight: bold
